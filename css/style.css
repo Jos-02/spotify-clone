@@ -8,9 +8,7 @@
     padding: 10px;
 
 }
-.right{
-    width: 75vw;
-}
+
 /* body{
     background-color: rgb(3, 1, 1);
     color: whitesmoke;
@@ -37,4 +35,85 @@ ul li{
 }
 .heading img{
     width: 30px;
+}
+.footer{
+    gap: 13px;
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.right{
+    width: 75vw;
+    margin: 16px 0;
+}
+.header{
+    justify-content: space-between;
+    background-color:rgb(34, 34, 34) ;
+}
+.header > *{
+    padding: 20px;
+}
+.Signupbtn{
+    background-color: black;
+    color:rgb(156, 148, 148);
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.Signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.btn >*{
+    margin: 0 12px;
+}
+.Loginbtn{
+    background-color: rgb(248, 245, 245);
+    color:rgb(10, 10, 10);
+    padding: 12px;
+    border-radius: 21px;
+    width: 79px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.Loginbtn:hover{
+    font-weight: bold;
+    font-size: 17px ;
+}
+.cardcontainer{
+    margin: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 60vh;
+    display: flex;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card >*{
+    padding-top: 10px;
 }
